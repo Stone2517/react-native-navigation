@@ -86,6 +86,7 @@
 	Make sure that `isDebug` and `createAdditionalReactPackages` methods are implemented.
 
 6. Update `AndroidManifest.xml` and set **android:name** value to `.MainApplication`
+       This file can be located in `android/app/src/main/AndroidManifest.xml`.
 	```xml
 	<application
 		android:name=".MainApplication"
